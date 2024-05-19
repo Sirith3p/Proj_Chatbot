@@ -1,0 +1,237 @@
+[debug] [2024-03-22T17:49:42.723Z] ----------------------------------------------------------------------
+[debug] [2024-03-22T17:49:42.726Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sirit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-03-22T17:49:42.727Z] CLI Version:   13.5.2
+[debug] [2024-03-22T17:49:42.727Z] Platform:      win32
+[debug] [2024-03-22T17:49:42.727Z] Node Version:  v20.11.1
+[debug] [2024-03-22T17:49:42.727Z] Time:          Sat Mar 23 2024 00:49:42 GMT+0700 (Indochina Time)
+[debug] [2024-03-22T17:49:42.727Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-22T17:49:42.871Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-22T17:49:42.871Z] > authorizing via signed-in user (androjenrya@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-03-22T17:49:43.235Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-22T17:49:43.235Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-03-22T17:49:43.242Z] [hub] writing locator at C:\Users\sirit\AppData\Local\Temp\hub-linechatbot-e5fd4.json
+[debug] [2024-03-22T17:49:44.181Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-22T17:49:44.181Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-22T17:49:44.181Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2024-03-22T17:49:44.186Z] defaultcredentials: writing to file C:\Users\sirit\AppData\Roaming\firebase\androjenrya_gmail_com_application_default_credentials.json
+[debug] [2024-03-22T17:49:44.354Z] Setting GAC to C:\Users\sirit\AppData\Roaming\firebase\androjenrya_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\sirit\\AppData\\Roaming\\firebase\\androjenrya_gmail_com_application_default_credentials.json"}}
+[debug] [2024-03-22T17:49:44.356Z] > refreshing access token with scopes: []
+[debug] [2024-03-22T17:49:44.358Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-03-22T17:49:44.359Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-22T17:49:44.682Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-03-22T17:49:44.682Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-22T17:49:44.704Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/linechatbot-e5fd4/adminSdkConfig [none]
+[debug] [2024-03-22T17:49:45.475Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/linechatbot-e5fd4/adminSdkConfig 200
+[debug] [2024-03-22T17:49:45.476Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/linechatbot-e5fd4/adminSdkConfig {"projectId":"linechatbot-e5fd4","storageBucket":"linechatbot-e5fd4.appspot.com"}
+[debug] [2024-03-22T17:49:46.165Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-22T17:49:46.166Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-22T17:49:46.166Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\sirit\\.cache\\firebase\\emulators\\ui-v1.11.8\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\sirit\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.8\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-22T17:49:46.539Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-03-22T17:49:46.539Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\sirit\demo\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\sirit\\demo\\functions\" for Cloud Functions..."}}
+[debug] [2024-03-22T17:49:46.787Z] Validating nodejs source
+[debug] [2024-03-22T17:49:49.492Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-03-22T17:49:49.493Z] Building nodejs source
+[debug] [2024-03-22T17:49:49.493Z] Failed to find version of module node: reached end of search path C:\Users\sirit\demo\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-03-22T17:49:49.498Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-03-22T17:49:50.056Z] Found firebase-functions binary at 'C:\Users\sirit\demo\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8926
+
+[debug] [2024-03-22T17:49:51.411Z] Got response from /__/functions.yaml {"endpoints":{"webhook":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"webhook"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: webhook. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: webhook."}}
+[info] +  functions[us-central1-webhook]: http function initialized (http://127.0.0.1:5001/linechatbot-e5fd4/us-central1/webhook). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/linechatbot-e5fd4/us-central1/webhook)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-22T18:00:45.639Z] File C:\Users\sirit\demo\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\sirit\\demo\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-03-22T18:00:46.642Z] Validating nodejs source
+[debug] [2024-03-22T18:00:49.392Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-03-22T18:00:49.394Z] Building nodejs source
+[debug] [2024-03-22T18:00:49.394Z] Failed to find version of module node: reached end of search path C:\Users\sirit\demo\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-03-22T18:00:49.399Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-03-22T18:00:49.865Z] Found firebase-functions binary at 'C:\Users\sirit\demo\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8926
+
+[debug] [2024-03-22T18:00:51.394Z] Got response from /__/functions.yaml {"endpoints":{"webhook":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"webhook"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: webhook. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: webhook."}}
+[debug] [2024-03-22T18:04:50.778Z] File C:\Users\sirit\demo\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\sirit\\demo\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-03-22T18:04:51.779Z] Validating nodejs source
+[debug] [2024-03-22T18:04:54.722Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-03-22T18:04:54.723Z] Building nodejs source
+[debug] [2024-03-22T18:04:54.723Z] Failed to find version of module node: reached end of search path C:\Users\sirit\demo\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-03-22T18:04:54.728Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-03-22T18:04:55.152Z] Found firebase-functions binary at 'C:\Users\sirit\demo\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8703
+
+[debug] [2024-03-22T18:04:56.423Z] Got response from /__/functions.yaml {"endpoints":{"webhook":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"webhook"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: webhook. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: webhook."}}
+[debug] [2024-03-22T18:07:55.715Z] [work-queue] {"queuedWork":["/linechatbot-e5fd4/us-central1/webhook-2024-03-22T18:07:55.715Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-03-22T18:07:55.716Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/linechatbot-e5fd4/us-central1/webhook-2024-03-22T18:07:55.715Z"],"workRunningCount":1}
+[debug] [2024-03-22T18:07:55.716Z] Accepted request POST /linechatbot-e5fd4/us-central1/webhook --> us-central1-webhook
+[debug] [2024-03-22T18:07:55.720Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-03-22T18:07:55.721Z] [functions] Got req.url=/linechatbot-e5fd4/us-central1/webhook, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/linechatbot-e5fd4/us-central1/webhook, mapping to path=/"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-03-22T18:07:55.744Z] [worker-pool] addWorker(us-central1-webhook) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-webhook)"}}
+[debug] [2024-03-22T18:07:55.746Z] [worker-pool] Adding worker with key us-central1-webhook, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-webhook, total=1"}}
+[debug] [2024-03-22T18:07:58.168Z] [runtime-status] [15376] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\sirit\\demo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\sirit\\\\demo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-03-22T18:07:58.170Z] [runtime-status] [15376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.8.1","resolution":"C:\\Users\\sirit\\demo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.8.1\",\"resolution\":\"C:\\\\Users\\\\sirit\\\\demo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-03-22T18:07:58.171Z] [runtime-status] [15376] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-03-22T18:07:58.173Z] [runtime-status] [15376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.8.1","resolution":"C:\\Users\\sirit\\demo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.8.1\",\"resolution\":\"C:\\\\Users\\\\sirit\\\\demo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-03-22T18:07:58.769Z] [runtime-status] [15376] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-03-22T18:07:58.770Z] [runtime-status] [15376] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.8.1","resolution":"C:\\Users\\sirit\\demo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.8.1\",\"resolution\":\"C:\\\\Users\\\\sirit\\\\demo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2024-03-22T18:07:58.771Z] [runtime-status] [15376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.8.1","resolution":"C:\\Users\\sirit\\demo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.8.1\",\"resolution\":\"C:\\\\Users\\\\sirit\\\\demo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-03-22T18:07:58.773Z] [runtime-status] [15376] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\sirit\\demo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\sirit\\\\demo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-03-22T18:07:58.779Z] [runtime-status] [15376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.8.1","resolution":"C:\\Users\\sirit\\demo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.8.1\",\"resolution\":\"C:\\\\Users\\\\sirit\\\\demo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-03-22T18:07:58.779Z] [runtime-status] [15376] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\sirit\\demo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\sirit\\\\demo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2024-03-22T18:07:58.994Z] [runtime-status] [15376] Functions runtime initialized. {"cwd":"C:\\Users\\sirit\\demo\\functions","node_version":"20.11.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\sirit\\\\demo\\\\functions\",\"node_version\":\"20.11.1\"}"}}
+[debug] [2024-03-22T18:07:58.995Z] [runtime-status] [15376] Listening to port: \\?\pipe\fire_emu_383512cd15b367f5 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[runtime-status] [15376] Listening to port: \\\\?\\pipe\\fire_emu_383512cd15b367f5"}}
+[debug] [2024-03-22T18:07:59.111Z] [worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: IDLE"}}
+[debug] [2024-03-22T18:07:59.111Z] [worker-pool] submitRequest(triggerId=us-central1-webhook) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-webhook)"}}
+[info] i  functions: Beginning execution of "us-central1-webhook" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"Beginning execution of \"us-central1-webhook\""}}
+[debug] [2024-03-22T18:07:59.113Z] [worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: BUSY"}}
+[warn] !  External network resource requested!
+   - URL: "https://api.openai.com/v1/chat/completions"
+ - Be careful, this may be a production service. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"External network resource requested!\n   - URL: \"https://api.openai.com/v1/chat/completions\"\n - Be careful, this may be a production service."}}
+[info] >  {"id":"chatcmpl-95db5FQa5Oug0h0a6biKOedxX4X4r","object":"chat.completion","created":1711130879,"model":"gpt-3.5-turbo-0125","choices":[{"index":0,"message":{"role":"assistant","content":"1. ฝึกฝนและศึกษาเรื่อง Algorithm และ Data Structure เพื่อเข้าใจหลักการพื้นฐานในการเขียนโค้ดอย่างถูกต้องและมีประสิทธิภาพ\n\n2. ทำโปรเจกต์ที่ต้องใช้ความคิดสร้างสรรค์และแก้ปัญหาที่ซับซ้อน เพื่อเรียนรู้การเขียนโค้ดให้เก่งขึ้นด้วยประสบการณ์จริง\n\n3. อ่านโค้ดจากผู้เชี่ยวชาญและมีประสบการณ์มากมายเพื่อเรียนรู้เทคนิคและรูปแบบการเขียนโค้ดที่ดีและมีประสิทธิภาพ และพัฒนาตัวเองให้ดียิ่งขึ้นตามต้นแบบที่ดีที่สุด"},"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":33,"completion_tokens":356,"total_tokens":389},"system_fingerprint":"fp_4f0b692a78"} {"user":{"id":"chatcmpl-95db5FQa5Oug0h0a6biKOedxX4X4r","object":"chat.completion","created":1711130879,"model":"gpt-3.5-turbo-0125","choices":[{"index":0,"message":{"role":"assistant","content":"1. ฝึกฝนและศึกษาเรื่อง Algorithm และ Data Structure เพื่อเข้าใจหลักการพื้นฐานในการเขียนโค้ดอย่างถูกต้องและมีประสิทธิภาพ\n\n2. ทำโปรเจกต์ที่ต้องใช้ความคิดสร้างสรรค์และแก้ปัญหาที่ซับซ้อน เพื่อเรียนรู้การเขียนโค้ดให้เก่งขึ้นด้วยประสบการณ์จริง\n\n3. อ่านโค้ดจากผู้เชี่ยวชาญและมีประสบการณ์มากมายเพื่อเรียนรู้เทคนิคและรูปแบบการเขียนโค้ดที่ดีและมีประสิทธิภาพ และพัฒนาตัวเองให้ดียิ่งขึ้นตามต้นแบบที่ดีที่สุด"},"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":33,"completion_tokens":356,"total_tokens":389},"system_fingerprint":"fp_4f0b692a78"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"id\":\"chatcmpl-95db5FQa5Oug0h0a6biKOedxX4X4r\",\"object\":\"chat.completion\",\"created\":1711130879,\"model\":\"gpt-3.5-turbo-0125\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"1. ฝึกฝนและศึกษาเรื่อง Algorithm และ Data Structure เพื่อเข้าใจหลักการพื้นฐานในการเขียนโค้ดอย่างถูกต้องและมีประสิทธิภาพ\\n\\n2. ทำโปรเจกต์ที่ต้องใช้ความคิดสร้างสรรค์และแก้ปัญหาที่ซับซ้อน เพื่อเรียนรู้การเขียนโค้ดให้เก่งขึ้นด้วยประสบการณ์จริง\\n\\n3. อ่านโค้ดจากผู้เชี่ยวชาญและมีประสบการณ์มากมายเพื่อเรียนรู้เทคนิคและรูปแบบการเขียนโค้ดที่ดีและมีประสิทธิภาพ และพัฒนาตัวเองให้ดียิ่งขึ้นตามต้นแบบที่ดีที่สุด\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":33,\"completion_tokens\":356,\"total_tokens\":389},\"system_fingerprint\":\"fp_4f0b692a78\"}"}}
+[debug] [2024-03-22T18:08:06.075Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-webhook" in 6963.2135ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"Finished \"us-central1-webhook\" in 6963.2135ms"}}
+[debug] [2024-03-22T18:08:06.077Z] [worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: IDLE"}}
+[debug] [2024-03-22T18:08:06.079Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-03-22T18:08:06.079Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-03-22T18:11:38.378Z] File C:\Users\sirit\demo\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\sirit\\demo\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-03-22T18:11:39.393Z] Validating nodejs source
+[debug] [2024-03-22T18:11:42.017Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-03-22T18:11:42.017Z] Building nodejs source
+[debug] [2024-03-22T18:11:42.017Z] Failed to find version of module node: reached end of search path C:\Users\sirit\demo\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-03-22T18:11:42.020Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-03-22T18:11:42.471Z] Found firebase-functions binary at 'C:\Users\sirit\demo\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8688
+
+[debug] [2024-03-22T18:11:43.622Z] Got response from /__/functions.yaml {"endpoints":{"webhook":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"webhook"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: webhook. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: webhook."}}
+[debug] [2024-03-22T18:11:48.816Z] [worker-pool] Shutting down IDLE worker (us-central1-webhook) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-webhook)"}}
+[debug] [2024-03-22T18:11:48.817Z] [worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: FINISHING"}}
+[debug] [2024-03-22T18:11:48.828Z] [worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: exited"}}
+[debug] [2024-03-22T18:11:48.828Z] [worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-webhook"},"extension":{},"message":"[worker-us-central1-webhook-3f3fd3cb-64a5-4f1a-be68-4db6eb1ddb5d]: FINISHED"}}
